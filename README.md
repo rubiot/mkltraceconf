@@ -70,3 +70,6 @@ Tool that receives a C header file and create fff.h mocks for all functions.
               -o <filename>
      --mock-suffix=<suffix> Preferred suffix to add to mocked functions
                 -s <suffix>
+
+# print_struct
+Tool to generate C code to print the contents of a struct. Depends on the https://github.com/rubiot/perl6-c-parser. Partial implemention only. **Work in progress**.

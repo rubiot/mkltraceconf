@@ -44,3 +44,13 @@ Tool that receives a C source file and generates a unit test skeleton file with 
 Tool that lists all imported symbols of a binary file, specifying what dynamic libraries each symbol comes from.
 
     ./imported_symbols.pl <binary>
+
+# ip-range.pl
+Tool that generates custom IPv4 ranges.
+
+    ./ip-range.pl <first-IPv4-address> <count>
+    
+    e.g: ./ip-range.pl 192.168.1.1 3
+            192.168.1.1
+            192.168.1.2
+            192.168.1.3

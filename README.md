@@ -11,3 +11,5 @@ Tool that generates function prototypes for all functions of a C source file.
     options:
       --max-columns=<N>, -c Max number of columns per line
       --run-tests, -t       Run unit tests only
+# gencpp
+Tool that receives a C++ header file and generates its .cpp skeleton file. **Work in progress**.

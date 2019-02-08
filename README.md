@@ -59,3 +59,14 @@ Tool that generates custom IPv4 ranges.
 Tool that receives a binary file (with debug symbols) and lists all source files that were used to generate it.
 
     ./listsources.pl <binary-file>
+
+# mockheader
+Tool that receives a C header file and create fff.h mocks for all functions.
+
+    ./mockheader.pl [options] <header-file>
+    
+    Options:
+      --out-file=<filename> Output file. Omit to print to stdout
+              -o <filename>
+     --mock-suffix=<suffix> Preferred suffix to add to mocked functions
+                -s <suffix>

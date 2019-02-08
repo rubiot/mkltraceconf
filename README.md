@@ -39,3 +39,8 @@ Tool that receives a C source file and generates a unit test skeleton file with 
                        
             --interactive Activates interactive mode
                        -n
+                       
+# imported_symbols.pl
+Tool that lists all imported symbols of a binary file, specifying what dynamic libraries each symbol comes from.
+
+    ./imported_symbols.pl <binary>

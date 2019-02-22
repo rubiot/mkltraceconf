@@ -73,3 +73,8 @@ Tool that receives a C header file and create fff.h mocks for all functions.
 
 # print_struct
 Tool to generate C code to print the contents of a struct. Depends on the https://github.com/rubiot/perl6-c-parser. Partial implemention only. **Work in progress**.
+
+# perf-rubio
+Script to automate network throughput tests. Depends on other scripts not available here.
+
+    ./perf-rubio.pl <test duration> <IMIX genome> <#ports>
